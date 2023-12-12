@@ -1,0 +1,255 @@
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: dataset/train
+opt.select_data: ['/']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    dataset/train	 dataset: /
+sub-directory:	/.	 num samples: 800
+num total samples of /: 800 x 1.0 (total_data_usage_ratio) = 800
+num samples of / per batch: 8 x 1.0 (batch_ratio) = 8
+--------------------------------------------------------------------------------
+Total_batch_size: 8 = 8
+--------------------------------------------------------------------------------
+dataset_root:    dataset/test	 dataset: /
+sub-directory:	/.	 num samples: 100
+--------------------------------------------------------------------------------

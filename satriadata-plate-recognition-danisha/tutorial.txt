@@ -1,0 +1,35 @@
+1. login ke labkc menggunakan ssh
+2. download satriadata-plate-recognition.tar.gz ke labkc
+3. ekstrak satriadata-plate-recognition.tar.gz => tar -xvzf satriadata-plate-recognition.tar.gz
+4. masuk ke direktori hasil ekstrak => cd satriadata-plate-recognition
+5. buat anaconda environment baru => conda create --name satriadata python=3.9.16
+6. aktifkan environment yang baru saja dibuat => conda activate satriadata
+7. install dependencies => pip install -r requirements.txt
+8. install pytorch => pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+
+contoh script untuk training:
+CUDA_VISIBLE_DEVICES=0 python3 train.py --train_data dataset/train --valid_data dataset/test --select_data / --batch_ratio 1 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --num_iter=30000 --character "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ" --saved_model saved_models/pretrained/TPS-ResNet-BiLSTM-CTC.pth --valInterval 20 --exp_name "Test_pretrained" --batch_size 8 --FT --workers 0
+
+script untuk testing:
+python3 demo.py --Transform TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --image_folder test_image/ --saved_model saved_models/Test_pretrained/best_accuracy.pth
+
+link github:
+https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here
+
+hasil ngikutin kakaknya : 95.3 
+ubah lr jadi 0.01 : 48.3
+pake dynamic lr sama ubah dr 20 jd 10 : 95.8
+dynamic lr, 20, freeze layer : 96.1
+loop jadi 30000 : 96,89
+
+Adding dropout layers with a dropout rate of 0.5 after the LSTM and between the dense layers 
+can help reduce overfitting.
+
+Add weight decay regularization. Adding L2 weight 
+decay of 0.0001 or 0.0005 can help reduce overfitting.
+
+training yos:
+CUDA_VISIBLE_DEVICES=0 python3 train.py --train_data dataset/train --valid_data dataset/test --select_data / --batch_ratio 1 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --num_iter=50000 --character "0123456789abcdefghijklmnopqrstuvwxyz" --saved_model saved_models/pretrained/TPS-ResNet-BiLSTM-CTC.pth --valInterval 20 --exp_name "Test_pretrained" --batch_size 8 --FT --workers 0
+
+CUDA_VISIBLE_DEVICES=0 python3 train.py --train_data dataset/train --valid_data dataset/test --select_data / --batch_ratio 1 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --num_iter=7000 --character "0123456789abcdefghijklmnopqrstuvwxyz" --saved_model saved_models/pretrained/TPS-ResNet-BiLSTM-CTC.pth --valInterval 20 --exp_name "Test_pretrained" --batch_size 256 --FT --workers 0 --eps 1e-10
